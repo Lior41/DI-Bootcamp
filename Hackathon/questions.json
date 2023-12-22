@@ -1,0 +1,63 @@
+[
+    {
+        "question": "Which anti-Semitic stereotype falsely claims that Jews control the world's finances?",
+        "choices": ["The Protocols of the Elders of Zion", "Zionist conspiracy theory", "The invisible hand", "The Illuminati"],
+        "answer": "The Protocols of the Elders of Zion",
+        "explanation": "This is a fabricated text purporting a Jewish plan for global domination."
+    },
+    {
+        "question": "Which literary work has been used to propagate the anti-Semitic stereotype of the 'conspiratorial Jew' in the 20th century?",
+        "choices": ["Mein Kampf", "The Merchant of Venice", "Das Kapital", "1984"],
+        "answer": "Mein Kampf",
+        "explanation": "Hitler's book played a significant role in spreading anti-Semitic propaganda."
+    },
+    {
+        "question": "Which anti-Semitic stereotype is often used to falsely describe Jews as greedy and materialistic?",
+        "choices": ["The usurer", "The greedy banker", "The shady merchant", "The bourgeois"],
+        "answer": "The greedy banker",
+        "explanation": "This stereotype falsely portrays Jews as controlling financial institutions for selfish gain."
+    },
+    {
+        "question": "What is a historically unfounded anti-Semitic stereotype about the physical appearance of Jews?",
+        "choices": ["Hooked nose", "Blue eyes", "Short stature", "Blond hair"],
+        "answer": "Hooked nose",
+        "explanation": "This stereotype has been used to 'other' and dehumanize Jews."
+    },
+    {
+        "question": "What historical event is often misused in anti-Semitic rhetoric to deny or downplay its severity?",
+        "choices": ["The Holocaust", "The First World War", "The French Revolution", "The Cold War"],
+        "answer": "The Holocaust",
+        "explanation": "Holocaust denial or distortion is a common form of anti-Semitic propaganda, which seeks to deny or minimize the atrocities committed against Jews during World War II."
+    },
+    {
+        "question": "Which term refers to the conspiracy theory that Jews are plotting to 'replace' other populations?",
+        "choices": ["The Great Replacement", "Zionist Occupation", "Cultural Marxism", "The New World Order"],
+        "answer": "The Great Replacement",
+        "explanation": "The 'Great Replacement' theory is a xenophobic and anti-Semitic conspiracy theory that falsely claims that there is a deliberate plot to replace the native population with immigrants."
+    },
+    {
+        "question": "In medieval Europe, what unfounded accusation was often directed at Jewish communities?",
+        "choices": ["Usury", "Blood libel", "Witchcraft", "Heresy"],
+        "answer": "Blood libel",
+        "explanation": "Blood libel refers to the false accusation that Jews would kidnap and murder Christian children to use their blood in religious rituals."
+    },
+    {
+        "question": "Which term is used to describe the irrational fear or hatred of Jews?",
+        "choices": ["Xenophobia", "Anti-Semitism", "Racism", "Islamophobia"],
+        "answer": "Anti-Semitism",
+        "explanation": "Anti-Semitism is a term used to describe prejudice against, hatred of, or discrimination against Jews as a national, ethnic, religious, or racial group."
+    },
+    {
+        "question": "Which term describes the false belief that Jews use Christian blood for religious rituals?",
+        "choices": ["Zionism", "Blood libel", "Kabbalah", "Heresy"],
+        "answer": "Blood libel",
+        "explanation": "Blood libel is a notorious anti-Semitic myth that falsely accuses Jews of murdering Christian children for ritual purposes."
+    },
+    {
+        "question": "What was the main purpose of the Nuremberg Laws enacted in Nazi Germany in 1935?",
+        "choices": ["Promoting Jewish culture", "Establishing trade agreements", "Legalizing anti-Semitic policies", "Encouraging religious freedom"],
+        "answer": "Legalizing anti-Semitic policies",
+        "explanation": "The Nuremberg Laws were anti-Semitic and racial laws in Nazi Germany that institutionalized many of the racial theories prevalent in Nazi ideology."
+    }
+    
+]
