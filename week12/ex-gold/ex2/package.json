@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "faker": "^6.6.6",
+    "inquirer": "^9.2.14"
+  }
+}
