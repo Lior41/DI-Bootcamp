@@ -1,29 +1,29 @@
-import React, { useReducer, useState } from "react";
-
-// Reducer function to manage todo list state
-function todoReducer(state, action) {
-  switch (action.type) {
-    case "ADD_TODO":
-      return [...state, { id: Date.now(), text: action.text }];
-    case "REMOVE_TODO":
-      return state.filter((todo) => todo.id !== action.id);
-    default:
-      return state;
-  }
-}
+import React, { useEffect, useState } from "react";
+import axios from 'axios';
 
 function TodoList() {
-  const [todos, dispatch] = useReducer(todoReducer, []);
+  const [todos, setTodos] = useState([]);
   const [todoText, setTodoText] = useState("");
 
-  const handleAddTodo = () => {
-    if (todoText.trim() === "") return;
-    dispatch({ type: "ADD_TODO", text: todoText });
-    setTodoText("");
+  useEffect(() => {
+    fetchTodos();
+  }, []);
+
+  const fetchTodos = async () => {
+    const response = await axios.get('http://localhost:3001/todos');
+    setTodos(response.data);
   };
 
-  const handleRemoveTodo = (id) => {
-    dispatch({ type: "REMOVE_TODO", id });
+  const handleAddTodo = async () => {
+    if (!todoText.trim()) return;
+    await axios.post('http://localhost:3001/todos', { text: todoText });
+    setTodoText("");
+    fetchTodos(); 
+  };
+
+  const handleRemoveTodo = async (id) => {
+    await axios.delete(`http://localhost:3001/todos/${id}`);
+    fetchTodos(); 
   };
 
   return (
