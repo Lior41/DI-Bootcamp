@@ -1,0 +1,51 @@
+.BookCard {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+    background-color: white;
+    width: 300px; /* Set a fixed width for each card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .BookCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  
+  .BookCard-Image {
+    width: 100%;
+    max-width: 180px; /* Adjust the image size */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .BookCard-Info {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .BookCard-Title {
+    margin: 0;
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .BookCard-Authors {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .BookCard-PublishedDate {
+    font-size: 14px;
+    color: #999;
+  }
+  
